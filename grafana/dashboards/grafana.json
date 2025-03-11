@@ -18,13 +18,13 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": 2,
+  "id": 1,
   "links": [],
   "panels": [
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "cefgo5rydnev4a"
+        "uid": "cefi5kkrjb2f4a"
       },
       "fieldConfig": {
         "defaults": {
@@ -123,7 +123,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "cefgo5rydnev4a"
+        "uid": "cefi5kkrjb2f4a"
       },
       "fieldConfig": {
         "defaults": {
@@ -229,7 +229,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "cefgo5rydnev4a"
+        "uid": "cefi5kkrjb2f4a"
       },
       "fieldConfig": {
         "defaults": {
@@ -326,7 +326,7 @@
     {
       "datasource": {
         "type": "jaeger",
-        "uid": "eefgokwclhslca"
+        "uid": "eefi5mqsimgowf"
       },
       "fieldConfig": {
         "defaults": {
@@ -387,7 +387,7 @@
         {
           "datasource": {
             "type": "jaeger",
-            "uid": "eefgokwclhslca"
+            "uid": "eefi5mqsimgowf"
           },
           "operation": "BasketApi.Basket/UpdateBasket",
           "queryType": "search",
@@ -401,7 +401,7 @@
     {
       "datasource": {
         "type": "jaeger",
-        "uid": "eefgokwclhslca"
+        "uid": "eefi5mqsimgowf"
       },
       "fieldConfig": {
         "defaults": {},
@@ -433,7 +433,7 @@
         {
           "datasource": {
             "type": "jaeger",
-            "uid": "eefgokwclhslca"
+            "uid": "eefi5mqsimgowf"
           },
           "query": "${traceId}",
           "refId": "A"
@@ -445,7 +445,7 @@
     {
       "datasource": {
         "type": "jaeger",
-        "uid": "eefgokwclhslca"
+        "uid": "eefi5mqsimgowf"
       },
       "fieldConfig": {
         "defaults": {
@@ -506,7 +506,7 @@
         {
           "datasource": {
             "type": "jaeger",
-            "uid": "eefgokwclhslca"
+            "uid": "eefi5mqsimgowf"
           },
           "operation": "BasketApi.Basket/GetBasket",
           "queryType": "search",
@@ -526,8 +526,8 @@
     "list": [
       {
         "current": {
-          "text": "d246f95f68258ac876e3aca33fae393b",
-          "value": "d246f95f68258ac876e3aca33fae393b"
+          "text": "",
+          "value": ""
         },
         "description": "traceId",
         "label": "traceId",
@@ -546,6 +546,6 @@
   "timezone": "browser",
   "title": "eShopDashboar",
   "uid": "ceffq9r0e2n7kf",
-  "version": 15,
+  "version": 2,
   "weekStart": ""
 }
